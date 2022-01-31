@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS endpoint_names (
+	endpoint_id INTEGER PRIMARY KEY,
+	endpoint_name TEXT
+);
+SELECT * FROM endpoint_names
